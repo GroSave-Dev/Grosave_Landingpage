@@ -245,7 +245,7 @@ button,
 
 .container.custom-area .row {
   margin-right: -15px;
-  margin-left: -15px;
+  margin-left: -1px;
 }
 
 .container.custom-area .col-custom {
@@ -1289,10 +1289,17 @@ button,
     top: 10px;
     right: 15px;
   }
+  .subscribe-iframe {
+    width: 500px;
+
+    transform: scale(0.5);
+  }
 }
 
 /*-- Main Header Area --*/
 .main-header-area .header-logo img {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* ---Sticky Header--- */
@@ -1884,6 +1891,12 @@ button,
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .offcanvas-widget-area {
