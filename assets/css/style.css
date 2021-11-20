@@ -1269,6 +1269,12 @@ button,
   }
 }
 
+.comingsoon{
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgb(94, 94, 94);
+}
+
 .header-top-area .header-top-wrapper .top-close-button {
   float: right;
   margin-left: 0;
@@ -1286,7 +1292,7 @@ button,
   .header-top-area .header-top-wrapper .top-close-button {
     margin-left: 10px;
     position: absolute;
-    top: 10px;
+    top: 27px;
     right: 15px;
   }
   .subscribe-iframe {
@@ -5219,11 +5225,9 @@ button,
   background-image: url("../images/banner_images/Untitled\ design\ \(2\).png");
   background-color: rgba(215, 177, 190, 0.9);
 }
-.slide-1 {
-  opacity: 0.3;
-}
+
 .slide-2 {
-  background-image: url("../images/banner_images/food\ wastage.jpg");
+  background-image: url("../images/banner_images/food\ wastage.png");
   background-color: rgba(215, 177, 190, 0.9);
 }
 
@@ -6144,6 +6148,7 @@ button,
   padding: 100px 0;
   background: #f6f6f6 url(../images/Main_Banner/contact-us.jpg) no-repeat scroll
     center center/cover;
+  object-fit: contain;
 }
 
 .breadcrumbs2-area:before {
