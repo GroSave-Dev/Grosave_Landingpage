@@ -6144,6 +6144,13 @@ button,
   }
 }
 
+
+.sponsor-text{
+  font-weight: 500;
+  color: rgb(49, 49, 49);
+  font-size: 1.4rem;
+  padding: 20px;
+}
 .breadcrumbs2-area {
   padding: 100px 0;
   background: #f6f6f6 url(../images/Main_Banner/contact-us.jpg) no-repeat scroll
